@@ -16,5 +16,5 @@ All notable changes to this project are documented here. The format is based on
 
 ## [1.7.3] - 2026-10-19
 
-Baseline: snapshot of [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) (MIT).
+Baseline: derivative of [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) (MIT, © 2026 Mads Lorentzen), snapshot at commit `d621ebe`.
 Its full release history lives in that repository.

@@ -10,7 +10,7 @@ A ready-to-configure set of Claude Code skills and commands that helps you **fin
 
 > This is an independent open-source project and is not affiliated with, endorsed by, or maintained by Anthropic. Claude Code is referenced only to describe the toolchain.
 >
-> Based on [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) (MIT). See [License & attribution](#license--attribution).
+> **Original project:** this repository is a derivative work of **[MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search)** by Mads Lorentzen, released under the MIT License. The framework design, commands, skills, agents, tooling and the `linkedin-search` / `freehire-search` portal CLIs come from that project. Please star and support the original. Details of what was kept and what changed are in [License & attribution](#license--attribution) and [NOTICE.md](NOTICE.md).
 
 ---
 
@@ -261,4 +261,15 @@ python3 tools/security_guards.py
 
 ## License & attribution
 
-MIT. This project is a derivative of [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search), © 2026 Mads Lorentzen, used under the MIT License; modifications © 2026 the author of this repository. The original copyright notice is retained in [LICENSE](LICENSE). The `getonbrd-search` and `remoteok-search` portal skills were added in this derivative; the four Danish demo portals were removed.
+This project is licensed under the **MIT License** (see [LICENSE](LICENSE)).
+
+**It is a derivative work of [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search)**, Copyright (c) 2026 Mads Lorentzen, used under the MIT License. The original copyright and permission notice is retained in [LICENSE](LICENSE), as the license requires. This repository is not affiliated with or endorsed by the original author.
+
+What this derivative changes (everything else is unmodified original work):
+
+- Added the `getonbrd-search` (Get on Board) and `remoteok-search` (Remote OK) portal skills, enabled by default, and their permission entries.
+- Removed the four Danish demo portals (Jobindex, Jobnet, Jobbank, Jobdanmark) and adjusted docs and tests that referenced them.
+- Removed the author-specific funding file, donation prompt and issue-template links; replaced `README.md` and `CHANGELOG.md`.
+- Left the profile files (`CLAUDE.md`, `01`–`07`, `search-queries.md`, `cv/main_example.tex`) as blank placeholders.
+
+The original repository's full history, issue tracker and release notes live at <https://github.com/MadsLorentzen/ai-job-search>. Third-party data sources (LinkedIn, freehire.me, Get on Board, Remote OK) have their own terms of use; see each portal's `SKILL.md`. See also [NOTICE.md](NOTICE.md).
